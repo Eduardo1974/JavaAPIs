@@ -1,4 +1,4 @@
-package com.example.demo.thread;
+package com.example.demo.thread1;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

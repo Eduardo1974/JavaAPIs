@@ -1,4 +1,4 @@
-package com.example.demo.thread;
+package com.example.demo.thread1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
