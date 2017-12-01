@@ -1,4 +1,4 @@
-package com.example.demo.thread1;
+package com.example.demo.thread.thread1;
 
 /**
  * Created by eduardo on 14/11/17.

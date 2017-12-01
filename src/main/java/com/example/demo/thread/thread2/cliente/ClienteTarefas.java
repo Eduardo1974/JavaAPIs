@@ -1,7 +1,6 @@
-package com.example.demo.thread2.cliente;
+package com.example.demo.thread.thread2.cliente;
 
 import java.io.IOException;
-import java.io.OutputStream;
 import java.io.PrintStream;
 import java.net.Socket;
 import java.util.Scanner;

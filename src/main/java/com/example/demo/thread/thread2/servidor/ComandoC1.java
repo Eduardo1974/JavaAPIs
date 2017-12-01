@@ -1,4 +1,4 @@
-package com.example.demo.thread2.servidor;
+package com.example.demo.thread.thread2.servidor;
 
 import java.io.PrintStream;
 

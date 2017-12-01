@@ -1,4 +1,4 @@
-package com.example.demo.thread2.servidor;
+package com.example.demo.thread.thread2.servidor;
 
 /**
  * Created by eduardo on 20/11/17.
