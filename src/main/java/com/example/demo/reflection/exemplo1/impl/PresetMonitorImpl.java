@@ -1,29 +1,16 @@
-package com.example.demo.reflection.monitor.impl;
+package com.example.demo.reflection.exemplo1.impl;
 
-import com.example.demo.reflection.monitor.Monitor;
-import com.example.demo.reflection.monitor.PresetMonitorConfiguration;
+import com.example.demo.reflection.exemplo1.Monitor;
+import com.example.demo.reflection.exemplo1.PresetMonitorConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
 
-
-/**
- * A classe PresetMonitorImpl disponibiliza um preset com as informacoes padroes de monitor.
- * @author Eduardo Alves
- * @version 1.0
- */
 @Component
 public class PresetMonitorImpl implements PresetMonitorConfiguration {
 
-    /**
-     * O metodo e reponsavel por retornar um Map com as configuracoes
-     * padroes de monitor. Todos os campos presentes no mapa são
-     * obrigatorios no banco de dados, e caso o usuario nao informe
-     * algum, o servico responsavel devera obter a informação por esse metodo
-     * @return Map monitor
-     */
     @Bean
     @Override
     public Map<String, Object> configuration() {
@@ -39,10 +26,6 @@ public class PresetMonitorImpl implements PresetMonitorConfiguration {
         return preset;
     }
 
-    /**
-     * O metodo retorna uma instancia de monitor com os campos obrigatórios no banco de dados
-     * @return monitor
-     */
     @Bean
     private static Monitor getPresetMonitor() {
         Monitor monitor = new Monitor();
